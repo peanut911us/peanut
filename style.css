@@ -62,3 +62,14 @@ footer {
     color: #f4f4f4;
     margin-top: 2rem;
 }
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Görüntüyü sayfanın dikey merkezine almak için tam ekran yüksekliği */
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
