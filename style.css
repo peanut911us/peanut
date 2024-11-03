@@ -1,4 +1,4 @@
-/* Genel ayarlar */
+/* General reset and body styling */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header ayarları */
+/* Header styling */
 header {
     text-align: center;
     padding: 1rem;
@@ -45,7 +45,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* İçerik */
+/* Content styling */
 main.content {
     flex: 1;
     display: flex;
@@ -56,7 +56,7 @@ main.content {
     padding: 2rem;
 }
 
-/* Footer */
+/* Footer styling */
 footer {
     text-align: center;
     padding: 1rem;
@@ -64,7 +64,7 @@ footer {
 }
 
 .footer-image {
-    width: 80px; /* Küçük boyut */
+    width: 80px; /* Smaller image size */
     height: auto;
     margin-top: 10px;
     border-radius: 8px;
