@@ -63,28 +63,26 @@ footer {
     color: #f4f4f4;
     margin-top: 2rem;
 }
-/* Sayfanın alt kısmında fotoğraf için stil */
+/* Genel sayfa ayarları */
 html, body {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Fotoğrafı sayfanın alt kısmına hizalar */
+    align-items: flex-end; /* Fotoğrafı sayfanın altına hizalar */
     background-color: #000000; /* Arka plan rengi */
 }
 
+/* Alt kısımda küçük fotoğraf */
 .bottom-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px; /* Fotoğrafın sayfanın altından biraz yukarıda görünmesini sağlar */
+    padding-bottom: 20px; /* Sayfanın en altına yapışmasını önlemek için boşluk bırakır */
 }
 
 .bottom-image {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+    width: 150px; /* Fotoğrafın küçük boyutta görünmesi için sabit genişlik */
     height: auto;
     border-radius: 8px; /* Köşeleri yuvarlatmak için isteğe bağlı */
 }
-
