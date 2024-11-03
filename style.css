@@ -1,4 +1,4 @@
-/* General style settings */
+/* Genel sayfa ayarları */
 * {
     margin: 0;
     padding: 0;
@@ -9,13 +9,17 @@ body {
     font-family: Arial, sans-serif;
     color: #f4f4f4;
     background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
-/* Header and navigation */
+/* Header ayarları */
 header {
     text-align: center;
     padding: 1rem;
-    color: #f4f4f4;
+    background-color: #111111;
 }
 
 header h1 {
@@ -42,47 +46,23 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Section styling */
-section {
+/* İçerik ayarları */
+.content {
     padding: 2rem;
-    margin: 1rem auto;
-    max-width: 800px;
     text-align: center;
+    flex-grow: 1;
 }
 
-h2, h3 {
-    color: #f4f4f4;
-    margin-bottom: 1rem;
-}
-
-/* Footer styling */
+/* Footer ve alt kısım ayarları */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #111111;
-    color: #f4f4f4;
-    margin-top: 2rem;
-}
-/* Genel sayfa ayarları */
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; /* Fotoğrafı sayfanın altına hizalar */
-    background-color: #000000; /* Arka plan rengi */
 }
 
-/* Alt kısımda küçük fotoğraf */
-.bottom-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px; /* Sayfanın en altına yapışmasını önlemek için boşluk bırakır */
-}
-
-.bottom-image {
-    width: 150px; /* Fotoğrafın küçük boyutta görünmesi için sabit genişlik */
+.footer-image {
+    width: 100px; /* Küçük boyut */
     height: auto;
-    border-radius: 8px; /* Köşeleri yuvarlatmak için isteğe bağlı */
+    margin-top: 10px;
+    border-radius: 8px;
 }
