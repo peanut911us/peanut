@@ -72,4 +72,23 @@ footer {
 .centered-image img {
     max-width: 100%;
     height: auto;
+}.centered-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Görüntüyü tam merkezde konumlandır */
+    text-align: center;
+    color: #f4f4f4;
 }
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Fotoğraf ile metin arasında boşluk bırakır */
+}
+
+.centered-image p {
+    font-size: 1.2em;
+}
+
